@@ -60,8 +60,7 @@ module.exports.start = async function() {
 };
 
 function _getYarnPath() {
-  const yarnPath = path.resolve(process.argv[2]);
-  return yarnPath;
+  return path.resolve('bin/yarn-standalone.js');
 }
 
 function escape(p) {

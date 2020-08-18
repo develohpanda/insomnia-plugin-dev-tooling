@@ -1,6 +1,6 @@
-# Why?
+# Insomnia Plugin Dev Tooling
 
-Use [yalc](https://github.com/whitecolor/yalc) to emulate the production installation of plugins, without having to publish them to NPM. This is useful for development.
+Uses [yalc](https://github.com/whitecolor/yalc) to emulate the production installation of plugins, without having to publish them to NPM. This is useful for development.
 
 ### One time setup
 ```sh
@@ -12,11 +12,11 @@ cd plugins/insomnia-plugin-kong-declarative-config
 yalc publish
 
 # Install dependencies into this directory
-cd local-plugin-installations
+cd insomnia-plugin-dev-tooling
 npm install
 
 # Add the plugin into this directory
-cd local-plugin-installations
+cd insomnia-plugin-dev-tooling
 npm run add insomnia-plugin-kong-declarative-config
 ```
 
@@ -24,7 +24,7 @@ After installation, your directory structure should look like this:
 
 ![](assets/installed.png)
 
-Now, set the `local-plugin-installations` directory, as an additional plugin path within Insomnia preferences:
+Now, set the `insomnia-plugin-dev-tooling` directory, as an additional plugin path within Insomnia preferences:
 
 ![](assets/preferences.png)
 
