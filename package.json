@@ -1,7 +1,6 @@
 {
   "name": "local-plugin-installations",
   "scripts": {
-    "add": "yalc add",
     "remove": "yalc remove",
     "remove:all": "npm run remove -- --all",
     "postremove": "npm run postyalc",
@@ -13,5 +12,4 @@
     "cpx": "^1.5.0",
     "rimraf": "^3.0.2"
   },
-  "dependencies": {}
 }

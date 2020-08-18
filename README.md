@@ -15,9 +15,9 @@ yalc publish
 cd insomnia-plugin-dev-tooling
 npm install
 
-# Add the plugin into this directory
+# Add the plugin into this directory (don't forget the --pure flag)
 cd insomnia-plugin-dev-tooling
-npm run add insomnia-plugin-kong-declarative-config
+yalc add insomnia-plugin-kong-declarative-config --pure
 ```
 
 After installation, your directory structure should look like this:
